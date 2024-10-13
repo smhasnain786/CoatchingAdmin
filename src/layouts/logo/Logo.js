@@ -14,12 +14,12 @@ const Logo = () => {
     <Link to="/" className="d-flex align-items-center gap-2">
       {isDarkMode || activeSidebarBg !== 'white' ? (
         <>
-          <LogoWhiteIcon />
+          {/* <LogoWhiteIcon /> */}
           {toggleMiniSidebar ? '' : <img src={LogoWhiteText} className="d-none d-lg-block" alt='logo-text' />}
         </>
       ) : (
         <>
-          <LogoDarkIcon />
+          {/* <LogoDarkIcon /> */}
           {toggleMiniSidebar ? '' : <img src={LogoDarkText} className="d-none d-lg-block" alt='logo-text' />}
         </>
       )}

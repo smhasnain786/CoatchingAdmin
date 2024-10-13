@@ -13,13 +13,13 @@ const AuthLogo = () => {
     <div className="p-4 d-flex justify-content-center gap-2">
       {isDarkMode !== false ? (
         <>
-          <LogoWhiteIcon />
-          <img src={LogoWhiteText} className="d-none d-lg-block" alt='logo-text' />
+          {/* <LogoWhiteIcon /> */}
+          <img src={LogoWhiteText} className="d-none d-lg-block" alt='logo-text' style={{width:'200px'}} />
         </>
       ) : (
         <>
-          <LogoDarkIcon />
-          <img src={LogoDarkText} className="d-none d-lg-block" alt='logo-text' />
+          {/* <LogoDarkIcon /> */}
+          <img src={LogoDarkText} className="d-none d-lg-block" alt='logo-text' style={{width:'200px'}} />
         </>
       )}
     </div>
