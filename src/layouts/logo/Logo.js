@@ -13,12 +13,12 @@ const Logo = () => {
       {isDarkMode || activeSidebarBg !== 'white' ? (
         <>
           {/* <LogoWhiteIcon /> */}
-          {toggleMiniSidebar ? '' : <img src={LogoWhiteText} className="d-none d-lg-block" alt='logo-text' />}
+          {toggleMiniSidebar ? '' : <img src={LogoWhiteText} className="d-none d-lg-block" alt='logo-text' style={{width:'185px'}} />}
         </>
       ) : (
         <>
           {/* <LogoDarkIcon /> */}
-          {toggleMiniSidebar ? '' : <img src={LogoDarkText} className="d-none d-lg-block" alt='logo-text' />}
+          {toggleMiniSidebar ? '' : <img src={LogoDarkText} className="d-none d-lg-block" alt='logo-text' style={{width:'185px'}} />}
         </>
       )}
     </Link>
