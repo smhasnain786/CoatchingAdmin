@@ -46,6 +46,8 @@ const Support = () => {
     //   { dataField: "email", text: "emailId", sort: true },
     { dataField: "mobileNumber", text: "Mobile Number",sort:true},
     { dataField: "message", text: "Message",sort:true},
+    { dataField: "type", text: "Type",sort:true},
+    { dataField: "relatedTo", text: "Related To",sort:true},
     // { dataField: "posterIcon", text: "poster Image",formatter: imageFormatter },
     // { dataField: "isActive", text: "isActive", formatter: isActiveFormatter},
     // { dataField: "maker_fee", text: "Maker Fee", sort: true },
